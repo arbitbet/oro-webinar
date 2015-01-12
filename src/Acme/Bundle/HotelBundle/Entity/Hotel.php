@@ -6,6 +6,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 use Oro\Bundle\EntityConfigBundle\Metadata\Annotation\Config;
 
+use Acme\Bundle\HotelBundle\Model\ExtendHotel;
+
 /**
  * @ORM\Entity()
  * @ORM\Table(name="acme_hotel")
@@ -17,7 +19,7 @@ use Oro\Bundle\EntityConfigBundle\Metadata\Annotation\Config;
  *      }
  * )
  */
-class Hotel
+class Hotel extends ExtendHotel
 {
     /**
      * @ORM\Id
