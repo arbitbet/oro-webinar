@@ -4,9 +4,18 @@ namespace Acme\Bundle\HotelBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
 
+use Oro\Bundle\EntityConfigBundle\Metadata\Annotation\Config;
+
 /**
  * @ORM\Entity()
  * @ORM\Table(name="acme_hotel")
+ * @Config(
+ *      defaultValues={
+ *          "entity"={
+ *              "icon"="icon-suitcase"
+ *          }
+ *      }
+ * )
  */
 class Hotel
 {
