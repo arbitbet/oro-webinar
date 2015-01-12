@@ -1,0 +1,7 @@
+parameters:
+#    acme_hotel.example.class: Acme\Bundle\HotelBundle\Example
+
+services:
+#    acme_hotel.example:
+#        class: %acme_hotel.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

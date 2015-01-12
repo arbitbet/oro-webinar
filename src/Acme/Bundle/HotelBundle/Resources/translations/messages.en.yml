@@ -1,0 +1,7 @@
+acme:
+    hotel:
+        entity_label:               Hotel
+        entity_plural_label:        Hotels
+        id.label:                   Id
+        name.label:                 Hotel name
+        entity_description:         Represent hotel
