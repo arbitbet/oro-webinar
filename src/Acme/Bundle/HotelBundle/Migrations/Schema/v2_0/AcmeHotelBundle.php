@@ -23,6 +23,7 @@ class AcmeHotelBundle implements Migration
             [
                 'oro_options' => [
                     'extend'    => ['is_extend' => true, 'owner' => ExtendScope::OWNER_CUSTOM],
+                    'entity'    => ['label' => 'Hotel rating'],
                     'datagrid'  => ['is_visible' => false]
                 ]
             ]
